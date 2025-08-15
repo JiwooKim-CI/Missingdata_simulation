@@ -2,7 +2,7 @@
 
 This repository contains the source code for the **Missing Data Simulation Shiny App**, an interactive tool for assessing the criteria under which intercept and slope parameters can be estimated without bias using the listwise deletion method, given specified m-DAGs.  
 The app is deployed at: [https://8sezpc-jiwookim0ci.shinyapps.io/Aexam/](https://8sezpc-jiwookim0ci.shinyapps.io/Aexam/)
-
+The code for generating the Shiny App is also available in this GitHub repository (app.R).
 ---
 
 ## Overview
@@ -76,23 +76,5 @@ The app draws on:
 
 - Mohan, K., Pearl, J., & Tian, J. (2013). Graphical models for inference with missing data. In C. J. Burges, L. Bottou, M. Welling, Z. Ghahramani, & K. Q. Weinberger (Eds.), *Advances in Neural Information Processing Systems* (Vol. 26, pp. 1277–1285). Curran Associates, Inc. https://proceedings.neurips.cc/paper_files/paper/2013/file/0ff8033cf9437c213ee13937b1c4c455-Paper.pdf
 
----
 
-## Installation (local run)
-
-To run the app locally in R:
-
-```r
-# Install dependencies if needed
-install.packages(c(
-  "shiny", "ggplot2", "dagitty", "dplyr", "purrr", "tidyr",
-  "igraph", "visNetwork", "shinyBS", "shinyWidgets"
-))
-
-# Clone this repository
-# git clone https://github.com/<your-username>/Aexam.git
-setwd("Aexam")
-
-# Run the app
-shiny::runApp()
 
