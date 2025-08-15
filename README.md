@@ -3,6 +3,7 @@
 This repository contains the source code for the **Missing Data Simulation Shiny App**, an interactive tool for assessing the criteria under which intercept and slope parameters can be estimated without bias using the listwise deletion method, given specified m-DAGs.  
 The app is deployed at: [https://8sezpc-jiwookim0ci.shinyapps.io/Aexam/](https://8sezpc-jiwookim0ci.shinyapps.io/Aexam/)
 The code for generating the Shiny App is also available in this GitHub repository (app.R).
+
 ---
 
 ## Overview
