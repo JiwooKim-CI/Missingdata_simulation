@@ -23,7 +23,7 @@ This tool was developed as part of the preparation for the PhD A-exam at Cornell
    Go to [Missing Data Shiny App](https://8sezpc-jiwookim0ci.shinyapps.io/Aexam/).
 
 2. **Navigate between tabs**  
-   - **Model Setup (Missingdata Proportion Setting, Path Coefficients)** – Specify variables, missingness indicators, and structural assumptions via the m-DAG editor. Missingness can be assumed in both \(X\) and \(Y\). Relationships between $X$, \(Y\), \(R_X\), and \(R_Y\) can be modified by adjusting:
+   - **Model Setup (Missingdata Proportion Setting, Path Coefficients)** – Specify variables, missingness indicators, and structural assumptions via the m-DAG editor. Missingness can be assumed in both $X$ and $Y$. Relationships between $X$, $Y$, $R_X$, and $R_Y$ can be modified by adjusting:
      1. Proportion and direction of missingness
      2. Path coefficients  
      m-DAGs are generated under the assumption that a missingness indicator cannot affect its own latent variable, following prior research. The DAG will update automatically based on the selected settings.
@@ -47,11 +47,11 @@ This tool was developed as part of the preparation for the PhD A-exam at Cornell
 ## Recommended Workflow
 
 1. **Specify the m-DAG**  
-   Define the relationships between \(X\), \(Y\), \(R_X\), and \(R_Y\) based on theoretical knowledge.
+   Define the relationships between $X$, $Y$, $R_X$, and $R_Y$ based on theoretical knowledge.
 
 2. **Modify relationships as needed**  
    Adjust path coefficients, missingness proportions, and (if applicable) add interaction terms.  
-   *Note:* Interaction is only allowed between \(X\) and the unobserved confounder of \(Y\) and \(R_Y\), following Ross et al. (2020).
+   *Note:* Interaction is only allowed between $X$ and the unobserved confounder of $Y$ and $R_Y$, following Ross et al. (2020).
 
 3. **Check recoverability**  
    The app automatically estimates recoverability of intercept and slope from the assumed m-DAG.
