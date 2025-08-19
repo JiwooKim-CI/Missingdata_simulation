@@ -23,7 +23,7 @@ This tool was developed as part of the preparation for the PhD A-exam at Cornell
    Go to [Missing Data Shiny App](https://8sezpc-jiwookim0ci.shinyapps.io/Aexam/).
 
 2. **Navigate between tabs**  
-   - **Model Setup (Missingdata Proportion Setting, Path Coefficients)** – Specify variables, missingness indicators, and structural assumptions via the m-DAG editor. Missingness can be assumed in both \(X\) and \(Y\). Relationships between \(X\), \(Y\), \(R_X\), and \(R_Y\) can be modified by adjusting:
+   - **Model Setup (Missingdata Proportion Setting, Path Coefficients)** – Specify variables, missingness indicators, and structural assumptions via the m-DAG editor. Missingness can be assumed in both \(X\) and \(Y\). Relationships between $X$, \(Y\), \(R_X\), and \(R_Y\) can be modified by adjusting:
      1. Proportion and direction of missingness
      2. Path coefficients  
      m-DAGs are generated under the assumption that a missingness indicator cannot affect its own latent variable, following prior research. The DAG will update automatically based on the selected settings.
