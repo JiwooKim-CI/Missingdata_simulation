@@ -39,7 +39,7 @@ This tool was developed as part of the preparation for the PhD A-exam at Cornell
 - **Interactive DAG Editor** – Build and modify m-DAGs to represent missing data structures.
 - **Parameter Control** – Adjust path coefficients, missingness probabilities, and sample size with sliders.
 - **Recoverability Check** – Apply *d-separation* to evaluate identifiability.
-- **Simulation Engine** – Run repeated simulations to evaluate estimator performance.
+- **Simulation** – Run simulations for the specified m-DAGs to evaluate whether the recoverability checks based on *d-separation* perform as expected.
 - **Visualization** – Display DAGs, parameter paths, and simulation results.
 
 ---
@@ -51,7 +51,7 @@ This tool was developed as part of the preparation for the PhD A-exam at Cornell
 
 2. **Modify relationships as needed**  
    Adjust path coefficients, missingness proportions, and (if applicable) add interaction terms.  
-   *Note:* Interaction is only allowed between $X$ and the unobserved confounder of $Y$ and $R_Y$, following Ross et al. (2020).
+   *Note:* Interaction is only permitted between $X$ and the unobserved confounder of $Y$ and $R_Y$, as suggested in the original simulation when the criteria fail.
 
 3. **Check recoverability**  
    The app automatically estimates recoverability of intercept and slope from the assumed m-DAG.
