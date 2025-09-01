@@ -25,7 +25,7 @@ This tool was developed as part of the preparation for the PhD A-exam at Cornell
 2. **Navigate between tabs**  
    - **Model Setup (Missingdata Proportion Setting, Path Coefficients)** – Specify variables, missingness indicators, and structural assumptions via the m-DAG editor. Missingness can be assumed in both $X$ and $Y$. Relationships between $X$, $Y$, $R_X$, and $R_Y$ can be modified by adjusting:
      1. Proportion and direction of missingness
-     2. Path coefficients  
+     2. Path coefficients (either direct arrow or bi-directed arrow)
      m-DAGs are generated under the assumption that a missingness indicator cannot affect its own latent variable, following prior research. The DAG will update automatically based on the selected settings.
    - **Run Simulation** – run Monte Carlo simulations to examine bias, variance, and coverage under different mechanisms.
    - **DAGs** – DAGs generated following the model setup can be checked.
